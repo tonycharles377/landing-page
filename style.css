@@ -123,3 +123,25 @@ h2 {
 .text {
     font-size: 18px;
 }
+
+/* SECTION THREE */
+
+.container-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 15rem;
+}
+
+.quote {
+    font-size: 38px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: end;
+    padding-right: 3rem;
+}
