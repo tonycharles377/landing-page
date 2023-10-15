@@ -76,7 +76,7 @@ a:hover {
 }
 
 button {
-    background-color: rgb(31, 31, 238);
+    background-color: #3882f6;
     color: white;
     padding: 8px 30px;
     font-size: 18px;
@@ -89,7 +89,7 @@ button {
 button:hover {
     cursor: pointer;
     background-color: rgb(5, 5, 126);
-    transition: 1s;
+    transition: .5s;
 }
 
 /* section 2 */
@@ -144,4 +144,40 @@ h2 {
     font-size: 22px;
     text-align: end;
     padding-right: 3rem;
+}
+
+/* SECTION FOUR */
+
+.container-four {
+    padding: 7rem 15rem;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flex-container button {
+    border: white solid;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    font-size: 20px;
 }
